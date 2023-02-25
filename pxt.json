@@ -2,7 +2,8 @@
     "name": "One Night At Altona's",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2"
     },
     "files": [
         "main.blocks",
@@ -14,7 +15,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.21",
+        "target": "1.12.22",
         "targetId": "arcade"
     },
     "supportedTargets": [
