@@ -126,6 +126,63 @@ ffffffffffffffffffffffdfffffffffcfffff222ffff222fffdffffff222f222ffff2222fffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff222ffffffff2222ffffffffffffffffffffffffffffffffffffffffffffffffffffbffffbffffdfffcddcfffffffffffffffff
 fffffffffffffffffffffffffffffffffbffffffbffffffffffffffffffffffbfcfff222ffffffffffffffcffffffffffffffffffffffffffffffffffffffffffffffffffffdddffffffffffccffffff
 `;
+            case "image2":
+            case "billly smith":return img`
+. . . 1 f 1 1 1 . . . . . . . . 
+. 1 1 1 f 1 f 1 1 . . . . . . . 
+1 1 1 1 f 1 f 1 f 1 1 . . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 . . 
+1 1 1 1 1 1 1 1 1 1 c f f . . . 
+f c c f f f f e f f f f f . . . 
+f f f f f f f e e f f f . . . . 
+f f e e f b f e e f f . . . . . 
+. f e 4 e 1 f 4 4 f . . . . . . 
+. f f f e 4 4 4 4 f . . . . . . 
+. . f e e e e e f f . . . . . . 
+. . e 4 4 e 7 7 7 f . . . . . . 
+. . e 4 4 e 7 7 7 f . . . . . . 
+. . f e e f 6 6 6 f . . . . . . 
+. . . f f f f f f . . . . . . . 
+. . . . f f f . . . . . . . . . 
+`;
+            case "image3":
+            case "billly friend 1":return img`
+. . . e e e e e . . . . . 
+. e e e e e e e e e . . . 
+. e e e e e e 4 e e e . . 
+e e e e 4 e e e 4 e e . . 
+e 4 e e 4 4 e e e 4 4 e e 
+e 4 4 e e e e b e e e e e 
+e e e e e b b b b f e e . 
+e f b b f b f b b f e . . 
+. f b d b 1 f d d f . . . 
+. f f f b d d d d f . . . 
+. . f b b b b b f f . . . 
+. . b d d b 7 7 7 f . . . 
+. . b d d b 7 7 7 f . . . 
+. . f b b f 6 6 6 f . . . 
+. . . f f f f f f . . . . 
+. . . . f f f . . . . . . 
+`;
+            case "image4":
+            case "billly friend 3":return img`
+. . . . . c c c f f f . . . 
+. . . f f f f f f f f f f . 
+. . f f f f f f c c f f f . 
+. c f f c f f f f f f f f f 
+. c f c c f f f f d b f c c 
+f f f f f f f f b e e d f f 
+f f f f f f c c e e e b f f 
+f c f f f c c b c e e f f f 
+c c c c c c c 1 c 4 4 f f . 
+c c c c c f e 4 4 4 4 f . . 
+. c c c e c c c e e e f . . 
+. . f f e 4 4 c 9 9 9 f . . 
+. . . f c 4 4 c 9 9 9 f . . 
+. . . f b c c b 3 b 3 3 f . 
+. . . f f b 3 b 3 b 3 f f . 
+. . . . . f f b b f f . . . 
+`;
         }
         return null;
     })

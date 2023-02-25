@@ -1,6 +1,12 @@
+namespace SpriteKind {
+    export const npc = SpriteKind.create()
+}
 /**
  * Cutscene
  */
+let billly_friend_3: Sprite = null
+let billy_friend_2: Sprite = null
+let billy_friend_1: Sprite = null
 let mySprite: Sprite = null
 let Game_Scene = "Title Screen"
 Render.setViewMode(ViewMode.tilemapView)
@@ -270,24 +276,36 @@ forever(function () {
             bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
             bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
             `)
-        mySprite = sprites.create(img`
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            `, SpriteKind.Player)
-        pauseUntil(() => false)
+        mySprite = sprites.create(assets.image`billly smith`, SpriteKind.Player)
+        billy_friend_1 = sprites.create(assets.image`billly friend 1`, SpriteKind.npc)
+        billy_friend_2 = sprites.create(img`
+            . . . . . . . . . . . . . . 
+            . f f f . f f f f f . . . . 
+            f f f f f c c c c f f . . . 
+            f f f f b c c c c c c f . . 
+            f f f c 3 c c c c c c f . . 
+            . f 3 3 c c c c c c c c f . 
+            . f f f c c c c c 4 c c f . 
+            . f f f f c c c 4 4 c f f . 
+            . f f 4 4 f b f 4 4 f f f . 
+            . f f 4 d 4 1 f d d c f . . 
+            . . f f f 4 d d d d f . . . 
+            . . 4 d d e 4 4 4 e f . . . 
+            . . e d d e 3 3 3 3 f . . . 
+            . . f e e f 6 6 6 6 f f . . 
+            . . f f f f f f f f f f . . 
+            . . . f f . . . f f f . . . 
+            `, SpriteKind.npc)
+        billly_friend_3 = sprites.create(assets.image`billly friend 3`, SpriteKind.npc)
+        mySprite.setPosition(20, 70)
+        billy_friend_1.setPosition(-10, 90)
+        billy_friend_2.setPosition(-15, 55)
+        billly_friend_3.setPosition(-25, 80)
+        pause(1000)
+        mySprite.setVelocity(50, 0)
+        billy_friend_1.setVelocity(50, 0)
+        billy_friend_2.setVelocity(50, 0)
+        billly_friend_3.setVelocity(50, 0)
+        pause(5000)
     }
 })

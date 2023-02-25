@@ -4,6 +4,21 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "title screen"
     },
+    "image2": {
+        "data": "hwQQABAAAAAAEfH/AAAAABARwf//AAAAEBHB7/7v/gAREfHv9E7kD/8f8f/uTuT/ERHxv0Hu/v/xH/H/T35n/xER4e5EfmcPEB/x7kR/Zw8AEfH/////AAAR/P8AAAAAABD/DwAAAAAAEP8AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "billly smith"
+    },
+    "image3": {
+        "data": "hwQNABAAAAAA4O7uAAAAAODuRP7/AAAA4O5Ovvu/+wDu7u6+/du9D+5O5P67273/7u7ku9G7+//u7u7733tn/+7kvrvde2cP4E7uu91/Zw/g7uT/////AADu5O4AAAAAAADuDgAAAAAAAO4AAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "billly friend 1"
+    },
+    "image4": {
+        "data": "hwQOABAAAAAAAPD/zAAAAADA/M/MDAAAAP///8z8AADw//z/zPz/D/DP/P/M7rwP/P//z/xMxPv8///M7EzE8/z//7xBzLy7//y/zkyeObP//O3uRJ65+///6+5Enjnz8P/f+///Pw/w//z/DwDwDwDw/P8AAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "billly friend 3"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
