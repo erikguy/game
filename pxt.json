@@ -4,7 +4,8 @@
     "dependencies": {
         "device": "*",
         "pxt-raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.15",
-        "Color Fading": "github:jwunderl/pxt-color#v0.2.2"
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "controller": "*"
     },
     "files": [
         "main.blocks",
@@ -18,7 +19,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.21",
+        "target": "1.12.22",
         "targetId": "arcade"
     },
     "supportedTargets": [
